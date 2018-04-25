@@ -4,13 +4,12 @@
   "description": "simple react shopping cart without using redux",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "keywords": [
-    "reactjs",
-    "shopping",
-    "cart"
-  ],
+  "keywords": ["reactjs", "shopping", "cart"],
   "author": "Sivadass",
   "license": "ISC",
   "dependencies": {
